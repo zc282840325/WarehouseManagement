@@ -1,0 +1,9 @@
+D:\WorkSpace\GitFlod\WarehouseManagement\WarehouseManagement\bin\Debug\WarehouseManagement.exe.config
+D:\WorkSpace\GitFlod\WarehouseManagement\WarehouseManagement\bin\Debug\WarehouseManagement.exe
+D:\WorkSpace\GitFlod\WarehouseManagement\WarehouseManagement\bin\Debug\WarehouseManagement.pdb
+D:\WorkSpace\GitFlod\WarehouseManagement\WarehouseManagement\obj\Debug\WarehouseManagement.csprojAssemblyReference.cache
+D:\WorkSpace\GitFlod\WarehouseManagement\WarehouseManagement\obj\Debug\WarehouseManagement.Form1.resources
+D:\WorkSpace\GitFlod\WarehouseManagement\WarehouseManagement\obj\Debug\WarehouseManagement.Properties.Resources.resources
+D:\WorkSpace\GitFlod\WarehouseManagement\WarehouseManagement\obj\Debug\WarehouseManagement.csproj.GenerateResource.cache
+D:\WorkSpace\GitFlod\WarehouseManagement\WarehouseManagement\obj\Debug\WarehouseManagement.exe
+D:\WorkSpace\GitFlod\WarehouseManagement\WarehouseManagement\obj\Debug\WarehouseManagement.pdb
