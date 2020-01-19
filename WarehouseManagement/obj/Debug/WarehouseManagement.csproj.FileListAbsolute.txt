@@ -7,3 +7,6 @@ D:\WorkSpace\GitFlod\WarehouseManagement\WarehouseManagement\obj\Debug\Warehouse
 D:\WorkSpace\GitFlod\WarehouseManagement\WarehouseManagement\obj\Debug\WarehouseManagement.csproj.GenerateResource.cache
 D:\WorkSpace\GitFlod\WarehouseManagement\WarehouseManagement\obj\Debug\WarehouseManagement.exe
 D:\WorkSpace\GitFlod\WarehouseManagement\WarehouseManagement\obj\Debug\WarehouseManagement.pdb
+D:\WorkSpace\GitFlod\WarehouseManagement\WarehouseManagement\obj\Debug\WarehouseManagement.MainForm.resources
+D:\WorkSpace\GitFlod\WarehouseManagement\WarehouseManagement\obj\Debug\WarehouseManagement.ShopForm.resources
+D:\WorkSpace\GitFlod\WarehouseManagement\WarehouseManagement\obj\Debug\WarehouseManagement.商品管理.ShopAddForm.resources
