@@ -69,6 +69,7 @@
             this.btn_select.TabIndex = 3;
             this.btn_select.Text = "搜索";
             this.btn_select.UseVisualStyleBackColor = true;
+            this.btn_select.Click += new System.EventHandler(this.btn_select_Click);
             // 
             // btn_add
             // 
@@ -93,6 +94,7 @@
             this.Name = "ShopForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "商品管理";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.ShopForm_FormClosing);
             this.Load += new System.EventHandler(this.ShopForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);

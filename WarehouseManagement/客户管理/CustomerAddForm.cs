@@ -8,20 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WarehouseManagement
+namespace WarehouseManagement.客户管理
 {
-    public partial class Login : Form
+    public partial class CustomerAddForm : Form
     {
-        public Login()
+        public CustomerAddForm()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            MainForm mainForm = new MainForm();
-            mainForm.Show();
-            this.Visible = false;
         }
     }
 }

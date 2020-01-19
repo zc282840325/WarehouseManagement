@@ -71,6 +71,18 @@
     <Compile Include="商品管理\ShopForm.Designer.cs">
       <DependentUpon>ShopForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="客户管理\CustomerAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="客户管理\CustomerAddForm.Designer.cs">
+      <DependentUpon>CustomerAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="客户管理\CustomerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="客户管理\CustomerForm.Designer.cs">
+      <DependentUpon>CustomerForm.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
@@ -92,6 +104,12 @@
     <EmbeddedResource Include="商品管理\ShopForm.resx">
       <DependentUpon>ShopForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="客户管理\CustomerAddForm.resx">
+      <DependentUpon>CustomerAddForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="客户管理\CustomerForm.resx">
+      <DependentUpon>CustomerForm.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -105,5 +123,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

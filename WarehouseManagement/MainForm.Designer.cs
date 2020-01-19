@@ -31,7 +31,6 @@
             this.components = new System.ComponentModel.Container();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.商品管理ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.添加商品ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.客户管理ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.租赁管理ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.資產管理ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -41,6 +40,7 @@
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.退出ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -54,7 +54,8 @@
             this.資產管理ToolStripMenuItem,
             this.商品入库管理ToolStripMenuItem,
             this.商品出库管理ToolStripMenuItem,
-            this.注销管理ToolStripMenuItem});
+            this.注销管理ToolStripMenuItem,
+            this.退出ToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(800, 25);
@@ -63,24 +64,17 @@
             // 
             // 商品管理ToolStripMenuItem
             // 
-            this.商品管理ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.添加商品ToolStripMenuItem});
             this.商品管理ToolStripMenuItem.Name = "商品管理ToolStripMenuItem";
             this.商品管理ToolStripMenuItem.Size = new System.Drawing.Size(68, 21);
             this.商品管理ToolStripMenuItem.Text = "商品管理";
             this.商品管理ToolStripMenuItem.Click += new System.EventHandler(this.商品管理ToolStripMenuItem_Click);
-            // 
-            // 添加商品ToolStripMenuItem
-            // 
-            this.添加商品ToolStripMenuItem.Name = "添加商品ToolStripMenuItem";
-            this.添加商品ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
-            this.添加商品ToolStripMenuItem.Text = "添加商品";
             // 
             // 客户管理ToolStripMenuItem
             // 
             this.客户管理ToolStripMenuItem.Name = "客户管理ToolStripMenuItem";
             this.客户管理ToolStripMenuItem.Size = new System.Drawing.Size(68, 21);
             this.客户管理ToolStripMenuItem.Text = "客户管理";
+            this.客户管理ToolStripMenuItem.Click += new System.EventHandler(this.客户管理ToolStripMenuItem_Click);
             // 
             // 租赁管理ToolStripMenuItem
             // 
@@ -134,6 +128,13 @@
             this.timer1.Interval = 1000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+            // 退出ToolStripMenuItem
+            // 
+            this.退出ToolStripMenuItem.Name = "退出ToolStripMenuItem";
+            this.退出ToolStripMenuItem.Size = new System.Drawing.Size(44, 21);
+            this.退出ToolStripMenuItem.Text = "退出";
+            this.退出ToolStripMenuItem.Click += new System.EventHandler(this.退出ToolStripMenuItem_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -145,6 +146,7 @@
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MainForm";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainForm_FormClosing);
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
@@ -159,7 +161,6 @@
 
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem 商品管理ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 添加商品ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 客户管理ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 租赁管理ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 資產管理ToolStripMenuItem;
@@ -169,5 +170,6 @@
         private System.Windows.Forms.StatusStrip statusStrip1;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.ToolStripMenuItem 退出ToolStripMenuItem;
     }
 }

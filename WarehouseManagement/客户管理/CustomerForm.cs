@@ -7,34 +7,24 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using WarehouseManagement.商品管理;
 
-namespace WarehouseManagement
+namespace WarehouseManagement.客户管理
 {
-    public partial class ShopForm : Form
+    public partial class CustomerForm : Form
     {
-        public ShopForm()
+        public CustomerForm()
         {
             InitializeComponent();
         }
-        //跳轉到新增窗口
+
         private void btn_add_Click(object sender, EventArgs e)
         {
-            ShopAddForm shopForm = new ShopAddForm();
-            shopForm.ShowDialog();
+            CustomerAddForm customerAddForm = new CustomerAddForm();
+
+            customerAddForm.ShowDialog();
         }
 
-        private void ShopForm_Load(object sender, EventArgs e)
-        {
-            InitData();
-        }
-        //初始化數據
-        private void InitData()
-        {
-           
-        }
-
-        private void ShopForm_FormClosing(object sender, FormClosingEventArgs e)
+        private void CustomerForm_FormClosing(object sender, FormClosingEventArgs e)
         {
             DialogResult dr = MessageBox.Show("是否退出?", "提示:", MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
 
@@ -48,11 +38,6 @@ namespace WarehouseManagement
             {
                 e.Cancel = true;                  //不执行操作
             }
-        }
-
-        private void btn_select_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
